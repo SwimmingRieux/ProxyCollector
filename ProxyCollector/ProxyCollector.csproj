@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Telegram.Bot" Version="19.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>D:\Asp\C#Bot\Telegram_Course_6\MyBot\MyBot\bin\Debug\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Telegram.Bot">
+      <HintPath>D:\Asp\C#Bot\Telegram_Course_6\MyBot\MyBot\bin\Debug\Telegram.Bot.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
